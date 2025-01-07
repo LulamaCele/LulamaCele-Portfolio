@@ -3,7 +3,6 @@ import Header from "../Components/Header";
 import WeddingPicture from "../images/Wedding-app.png";
 import WeddingPicture1 from "../images/wedding-app-1.png";
 import WeddingPicture2 from "../images/wedding-app-2.png";
-import WeddingPicture3 from "../images/wedding-app-3.png";
 
 export default function WeddingWebsite() {
   return (
@@ -13,7 +12,7 @@ export default function WeddingWebsite() {
         <div className="flex justify-center content-center text-white py-12 text-2xl">
           Perfect Wedding Website
         </div>
-        <img src={WeddingPicture} alt="image of perfect wedding website" />
+        <img src={WeddingPicture} alt="" />
         <p className="pt-6 pb-12 px-12 text-center text-white">
           This is one of my first projects I did so I could practice my
           front-end skills. I initially did a simple HTML and CSS for this

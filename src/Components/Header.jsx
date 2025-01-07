@@ -58,11 +58,9 @@ function Header() {
     >
       
       <button className="bg-cyan-400 text-white py-2 px-6 rounded mx-4 hover:bg-cyan-500 duration-500">
-        <a href=""
-          download=""
-        >
+        
           Download CV
-        </a>
+        
       </button>
     </ul>
   </nav>

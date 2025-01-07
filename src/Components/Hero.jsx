@@ -37,14 +37,14 @@ function Hero() {
             <FaGithub className="text-3xl text-white hover:text-cyan-500 duration-500"/>
             {/* <button className="bg-cyan-400 py-2 px-6 rounded-full text-white hover:bg-cyan-500 mr-3">Github</button> */}
           </a>
-          <a href="" target="blank">
+          {/* <a href="" target="blank">
             <FaLinkedin className="text-3xl text-white hover:text-cyan-500 duration-500"/>
-            {/* <button className="bg-cyan-400 py-2 px-6 rounded-full text-white hover:bg-cyan-500 mr-3">LinkedIn</button> */}
+            <button className="bg-cyan-400 py-2 px-6 rounded-full text-white hover:bg-cyan-500 mr-3">LinkedIn</button>
           </a>
           <a href="" target="blank">
             <FaWhatsappSquare className="text-3xl text-white hover:text-cyan-500 duration-500"/>
-            {/* <button className="bg-cyan-400 py-2 px-6 rounded-full text-white hover:bg-cyan-500 ">WhatsApp</button> */}
-          </a>
+            <button className="bg-cyan-400 py-2 px-6 rounded-full text-white hover:bg-cyan-500 ">WhatsApp</button>
+          </a> */}
         </div>
         <div className="animate-bounce my-12 text-3xl">
         <FaArrowCircleDown className="text-white" />
