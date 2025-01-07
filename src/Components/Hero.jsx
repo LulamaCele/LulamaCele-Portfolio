@@ -2,8 +2,8 @@
 //import world icon/s
 import { BiWorld } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaWhatsappSquare } from "react-icons/fa";
 import { FaArrowCircleDown } from "react-icons/fa";
 
 function Hero() {
