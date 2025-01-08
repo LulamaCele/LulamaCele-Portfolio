@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abc4c363.css",
+    "main.js": "/static/js/main.f22ed9de.js",
+    "static/media/Wedding-app.png": "/static/media/Wedding-app.1330b2e1969668021101.png",
+    "static/media/wedding-app-1.png": "/static/media/wedding-app-1.f4fea6ce20702fdab4e4.png",
+    "static/media/movies-app-details.jpg": "/static/media/movies-app-details.fb0bf4f67e7155cdad84.jpg",
+    "static/media/movies-app-search.jpg": "/static/media/movies-app-search.0d11c67688a69df69413.jpg",
+    "static/media/movies-app.jpg": "/static/media/movies-app.ede9d4c07ab056f481fd.jpg",
+    "static/media/wedding-app-2.png": "/static/media/wedding-app-2.7a4518f6475f014427a5.png",
+    "static/media/barber-app-profile.jpg": "/static/media/barber-app-profile.7f2ce31b001fbafec143.jpg",
+    "static/media/barber-app.jpg": "/static/media/barber-app.78088d1dfcebee5af904.jpg",
+    "static/media/barber-app-admin.jpg": "/static/media/barber-app-admin.f77079b3cbbc0dd15f96.jpg",
+    "static/media/barber-app-qrcode.png": "/static/media/barber-app-qrcode.2025bfa28f2a9e9bfaf9.png",
+    "index.html": "/index.html",
+    "main.abc4c363.css.map": "/static/css/main.abc4c363.css.map",
+    "main.f22ed9de.js.map": "/static/js/main.f22ed9de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abc4c363.css",
+    "static/js/main.f22ed9de.js"
+  ]
+}
