@@ -1,19 +1,28 @@
 import React from "react";
 import Header from "../Components/Header";
+import { FaGithub } from "react-icons/fa";
 import BarberLogo from "../images/barber-app-logo.png";
 import Barber from "../images/barber-app.jpg";
 import BarberProfile from "../images/barber-app-profile.jpg";
 import BarberAdmin from "../images/barber-app-admin.jpg";
-import BarberAppQRCode from '../images/barber-app-qrcode.png';
+import Footer from '../Components/Footer';
 
 export default function BarberBookingApp() {
   return (
     <div>
       <Header />
-      <div className="bg-[#11235A] md:px-24 px-6 py-6">
+      <div className="bg-gray-900 md:px-24 px-6 py-6">
         <div className="">
           <img className="m-auto w-20 h-20" src={BarberLogo} alt="" />
           <p className="text-center text-2xl text-white py-6">The Barber App</p>
+        </div>
+        <div className="flex justify-center items-center mb-6">
+          <a href="https://expo.dev/accounts/lulama/projects/TheBarber/builds/2df017e9-c5c4-4fcd-a9b2-710dcf11c39c" target="blank">
+          <button className="py-2 px-6 rounded mx-4 text-white bg-teal-500 hover:bg-teal-400 duration-200">Download On Android</button>
+          </a>
+          <a href="https://github.com/LulamaCele/TheBaberApp" target="blank">
+            <FaGithub className="text-4xl text-teal-500  hover:text-teal-400 duration-500"/>
+          </a>
         </div>
         <div className=" flex justify-evenly ">
           <img className="rounded w-[20%]" src={Barber} alt="" />
@@ -22,7 +31,7 @@ export default function BarberBookingApp() {
         </div>
         <div className="py-12 px-12">
           <div className="text-center text-lg text-white pb-3">About</div>
-          <p className="text-white">
+          <p className="text-gray-400">
             So this an appointment booking app for a barber. The intent with
             this app was to learn more about data storage and manipulating data,
             login system, as well as state management using the context hook.<br />
@@ -46,7 +55,7 @@ export default function BarberBookingApp() {
             project.
           </p>
         </div>
-        <div className="py-3">
+        {/* <div className="py-3">
           <p className="text-lg text-white">Download app:</p>
           <a
             className="text-cyan-500 pl-3"
@@ -56,8 +65,9 @@ export default function BarberBookingApp() {
           </a>
           <p className="text-white">Or Scan QR Code:</p>
           <img className="w-40" src={BarberAppQRCode} alt="" />
-        </div>
+        </div> */}
       </div>
+      <Footer />
     </div>
   );
 }
