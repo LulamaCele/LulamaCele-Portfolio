@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c886feca.css",
-    "main.js": "/static/js/main.a1ea88fe.js",
+    "main.js": "/static/js/main.ac8346b6.js",
     "static/media/Wedding-app.png": "/static/media/Wedding-app.1330b2e1969668021101.png",
     "static/media/wedding-app-1.png": "/static/media/wedding-app-1.f4fea6ce20702fdab4e4.png",
     "static/media/dp2.jpg": "/static/media/dp2.7602928161347e2bf773.jpg",
@@ -15,10 +15,10 @@
     "static/media/Lulama Cele Web Developer CV.pdf": "/static/media/Lulama Cele Web Developer CV.7164a6cbabd41a4153af.pdf",
     "index.html": "/index.html",
     "main.c886feca.css.map": "/static/css/main.c886feca.css.map",
-    "main.a1ea88fe.js.map": "/static/js/main.a1ea88fe.js.map"
+    "main.ac8346b6.js.map": "/static/js/main.ac8346b6.js.map"
   },
   "entrypoints": [
     "static/css/main.c886feca.css",
-    "static/js/main.a1ea88fe.js"
+    "static/js/main.ac8346b6.js"
   ]
 }
