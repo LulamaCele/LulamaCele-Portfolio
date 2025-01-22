@@ -5,7 +5,7 @@ import MoviesAppLogo from "../images/mocies-app-logo.png";
 import Movies from "../images/movies-app.jpg";
 import MoviesSearch from "../images/movies-app-search.jpg";
 import MoviesDetails from "../images/movies-app-details.jpg";
-import Footer from "../Components/Footer";
+import Footer from '../Components/Footer';
 
 export default function MoviesWebsite() {
   return (

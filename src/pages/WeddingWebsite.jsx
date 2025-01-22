@@ -4,7 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import WeddingPicture from "../images/Wedding-app.png";
 import WeddingPicture1 from "../images/wedding-app-1.png";
 import WeddingPicture2 from "../images/wedding-app-2.png";
-import Footer from '../Components/Footer';
+import Footer from "../Components/Footer";
+
 
 export default function WeddingWebsite() {
   return (
@@ -15,7 +16,7 @@ export default function WeddingWebsite() {
           Perfect Wedding Website
         </div>
         <div className="flex justify-center items-center mb-6">
-          <a href="https://lulamacele.github.io/perfect-weddings/#/" target="blank">
+          <a href="https://lulamacele.github.io/perfect-weddings/#/">
           <button className="py-2 px-6 rounded mx-4 text-white bg-teal-500 hover:bg-teal-400 duration-200">Live Site</button>
           </a>
           <a href="https://github.com/LulamaCele/perfect-weddings" target="blank">
@@ -38,7 +39,7 @@ export default function WeddingWebsite() {
         </p>
 
         <img src={WeddingPicture2} alt="" />
-        <p className="pt-6 pb-12 px-12 text-center text-gray-400">
+        <p className="pt-6 px-12 text-center text-gray-400">
           A testimonials page is included to reasure future potential customers
           that they will recieve top notch cutomer service.
         </p>
